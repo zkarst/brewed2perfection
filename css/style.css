@@ -5,6 +5,7 @@ body {
     width: 100%;
 }
 .logo{
+    position:absolute;
     width:150px;
     padding:15px;
 }
@@ -22,6 +23,7 @@ ul li{
     width: 100%;
     padding-left: 100px;
     padding-right: 100px;
+    z-index:9;
 }
 .nav-links{
     text-align:right;
@@ -31,4 +33,49 @@ ul li{
 .coffeeBean{
     width:30px;
     padding:5px;
+}
+.coffeeBean1 {
+    width: 30px;
+    padding: 5px;
+}
+.coffeeBean2 {
+    width: 30px;
+    padding: 5px;
+}
+.coffeeBean3 {
+    width: 30px;
+    padding: 5px;
+}
+.nav-item.active {
+    color: #9c6f44 !important;
+    
+}
+a {
+    color: #fff !important;
+    text-decoration: none;
+}
+.learnBtn {
+    color: #fff !important;
+    border: 1px solid #fff;
+    padding: 5px;
+    position: absolute;
+    top: 85%;
+    left: 45%;
+    font-size:25px;
+}
+@font-face {
+    font-family: interBold;
+    src: url(../fonts/Inter-Bold.woff);
+}
+h2{
+    font-family:interBold;
+}
+#text-row {
+    padding: 50px;
+    background-image: url('file:///C:/Users/zacha/source/repos/zkarst/brewed2perfection/images/coffee-beans.png');
+    background-size: cover;
+}
+.cupof-coffee{
+    width:100%;
+    float:right;
 }
