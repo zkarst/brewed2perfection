@@ -9,8 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 </head>
-<body>
-
+<header>
     <div class="row" id="headerSec">
         <div class="col-2">
             <img class="logo" src="images/logo.png" />
@@ -26,36 +25,63 @@
                 <li><a href="file:///C:/Users/zacha/source/repos/zkarst/brewed2perfection/contact.html" class="nav-item"><img class="coffeeBean3" src="images/coffeeBean-white.png" />Contact</a></li>
             </ul>
             <script>
-                
-    const Bean = document.getElementsByClassName('coffeeBean2');
-    const nav = document.getElementsByClassName('nav-item');
 
-   
-    const brownBean = new Image();
-    brownBean.src = 'images/coffeeBean-brown.png';
+                const Bean = document.getElementsByClassName('coffeeBean2');
+                const nav = document.getElementsByClassName('nav-item');
 
-   
-    const whiteBean = new Image();
-    whiteBean.src = 'images/coffeeBean-white.png';
 
-    
-    if (nav.length > 0) {
-        
-        console.log("Bean is Brown");
-        
-        Bean[0].src = brownBean.src;
-    } else {
-        
-        console.log("Bean is White");
-     
-    }
+                const brownBean = new Image();
+                brownBean.src = 'images/coffeeBean-brown.png';
+
+
+                const whiteBean = new Image();
+                whiteBean.src = 'images/coffeeBean-white.png';
+
+
+                if (nav.length > 0) {
+
+                    console.log("Bean is Brown");
+
+                    Bean[0].src = brownBean.src;
+                } else {
+
+                    console.log("Bean is White");
+
+                }
             </script>
         </div>
     </div>
+</header>
+<body>
 
-    
+    <div class="row" id="menu">
+    <h2 class="menuHeading">About</h2>
+    </div>
 
 
 
 </body>
+<div class="row" id="footer">
+    <div class="col-lg-3 col-md-12 col-sm-12">
+        <img class="footer-logo" src="images/logo.png" />
+    </div>
+    <div class="col-lg-3 col-md-12 col-sm-12">
+        <h5 class="footer-heading">Privacy Policy</h5>
+        <p class="footer-links">Terms of Use</p>
+        <p class="footer-links">Privacy Policy</p>
+        <p class="footer-links">Cookies</p>
+    </div>
+    <div class="col-lg-3 col-md-12 col-sm-12">
+        <h5 class="footer-heading">Services</h5>
+        <p class="footer-links">Menu</p>
+        <p class="footer-links">Shop</p>
+        <p class="footer-links">Order Ahead</p>
+    </div>
+    <div class="col-lg-3 col-md-12 col-sm-12">
+        <h5 class="footer-heading">About Us</h5>
+        <p class="footer-links">Find a Location</p>
+        <p class="footer-links">About Us</p>
+        <p class="footer-links">Our Story</p>
+    </div>
+</div>
 </html>

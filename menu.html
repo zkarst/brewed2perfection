@@ -9,8 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 </head>
-<body>
-
+<header>
     <div class="row" id="headerSec">
         <div class="col-2">
             <img class="logo" src="images/logo.png" />
@@ -26,36 +25,136 @@
                 <li><a href="file:///C:/Users/zacha/source/repos/zkarst/brewed2perfection/contact.html" class="nav-item"><img class="coffeeBean3" src="images/coffeeBean-white.png" />Contact</a></li>
             </ul>
             <script>
-                
-    const Bean = document.getElementsByClassName('coffeeBean1');
-    const nav = document.getElementsByClassName('nav-item');
 
-   
-    const brownBean = new Image();
-    brownBean.src = 'images/coffeeBean-brown.png';
+                const Bean = document.getElementsByClassName('coffeeBean1');
+                const nav = document.getElementsByClassName('nav-item');
 
-   
-    const whiteBean = new Image();
-    whiteBean.src = 'images/coffeeBean-white.png';
 
-    
-    if (nav.length > 0) {
-        
-        console.log("Bean is Brown");
-        
-        Bean[0].src = brownBean.src;
-    } else {
-        
-        console.log("Bean is White");
-     
-    }
+                const brownBean = new Image();
+                brownBean.src = 'images/coffeeBean-brown.png';
+
+
+                const whiteBean = new Image();
+                whiteBean.src = 'images/coffeeBean-white.png';
+
+
+                if (nav.length > 0) {
+
+                    console.log("Bean is Brown");
+
+                    Bean[0].src = brownBean.src;
+                } else {
+
+                    console.log("Bean is White");
+
+                }
             </script>
         </div>
     </div>
+</header>
+<body>
 
-    
+    <div class="row" id="menuArea">
+
+
+        <div class="col-lg-1">
+
+        </div>
+        <div class="col-lg-5 col-md-12 col-sm-12" id="menu-box">
+            <h2 class="menu-heading">Menu</h2>
+            <h3>Hot Coffees</h3>
+            <hr />
+
+            <h4 class="menuItem">
+                Morning Sunshine
+            </h4><p> ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+
+            <h4 class="menuItem">
+                The Steamy Unicorn
+            </h4> <p> ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+
+            <h4 class="menuItem">
+                Caffeine Overload
+            </h4>  <p> ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+
+            <h4 class="menuItem">
+                The Vanilla Viking
+            </h4> <p> ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+
+            <h3>
+                Cold Coffees
+            </h3>
+            <hr />
+            <h4 class="menuItem">
+                Frosty Breeze
+            </h4><p>Iced coffee combined with coconut milk and a touch of mint syrup. It's like sipping on a cool breeze!</p>
+            <h4 class="menuItem">
+                Choco-Mint Mocha Madness
+            </h4><p>A refreshing iced mocha with minty coolness to send your taste buds into overdrive.</p>
+            <h4 class="menuItem">
+                Blizzard Bliss
+            </h4><p>A frosty blend of cold brew, vanilla ice cream, and chocolate chunks. It's a winter wonderland in every sip.</p>
+            <h4 class="menuItem">
+                Iced Cactus Cooler
+            </h4><p>Cold brew coffee, lime, and a splash of agave syrup. A little prickly, a lot refreshing.</p>
+            <h4 class="menuItem">
+                Berry Brrr
+            </h4><p>Iced coffee meets fresh berries and a dash of cream. A fruity twist on your usual cold brew.</p>
+
+            <h3>
+                Specialty Drinks
+            </h3>
+            <hr />
+            <h4 class="menuItem">
+                The Choco-Lava Lava
+            </h4> <p>A molten chocolate and espresso blend topped with whipped cream and a hot fudge drizzle. For when you want the chocolate to explode!</p>
+            <h4 class="menuItem">
+                Saffron Spice Latte
+            </h4>  A delicate latte infused with saffron and cardamom, transporting you to a faraway spice market.
+            <h4 class="menuItem">
+                Matcha Madness
+            </h4> <p>A vibrant matcha latte with a swirl of honey and coconut milk. Zen, but make it sweet.</p>
+            <h4 class="menuItem">
+                Caramel Cloud
+            </h4> <p>Fluffy whipped cream meets caramel and espresso, creating a cloud of sweetness on top of your coffee.</p>
+            <h4 class="menuItem">
+                The Almond Joy
+            </h4> <p>A combination of almond milk, chocolate, and coconut, finished with a sprinkle of toasted almonds.</p>
+
+
+        </div>
+        <div class="col-lg-5 col-md-12 col-sm-12">
+            <img class="bread-image" src="images/bread-image.jpg" />
+        </div>
+        <div class="col-lg-1">
+
+        </div>
+    </div>
 
 
 
 </body>
+<div class="row" id="footer">
+    <div class="col-lg-3 col-md-12 col-sm-12">
+        <img class="footer-logo" src="images/logo.png" />
+    </div>
+    <div class="col-lg-3 col-md-12 col-sm-12">
+        <h5 class="footer-heading">Privacy Policy</h5>
+        <p class="footer-links">Terms of Use</p>
+        <p class="footer-links">Privacy Policy</p>
+        <p class="footer-links">Cookies</p>
+    </div>
+    <div class="col-lg-3 col-md-12 col-sm-12">
+        <h5 class="footer-heading">Services</h5>
+        <p class="footer-links">Menu</p>
+        <p class="footer-links">Shop</p>
+        <p class="footer-links">Order Ahead</p>
+    </div>
+    <div class="col-lg-3 col-md-12 col-sm-12">
+        <h5 class="footer-heading">About Us</h5>
+        <p class="footer-links">Find a Location</p>
+        <p class="footer-links">About Us</p>
+        <p class="footer-links">Our Story</p>
+    </div>
+</div>
 </html>

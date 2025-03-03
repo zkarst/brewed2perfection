@@ -2,9 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\css",
+    "\\fonts",
     "\\images",
+    "\\includes",
     "\\js"
   ],
-  "SelectedNode": "\\menu.html",
+  "SelectedNode": "\\includes\\mobile-menu.php",
   "PreviewInSolutionExplorer": false
 }

@@ -1,8 +1,15 @@
 body {
     margin: 0px;
 }
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: poppinsRegular;
+}
+
 .brewedImg {
     width: 100%;
+    height: 750px;
 }
 .logo{
     position:absolute;
@@ -19,7 +26,6 @@ ul li{
 }
 #headerSec {
     background-color: #000;
-    position: fixed;
     width: 100%;
     padding-left: 100px;
     padding-right: 100px;
@@ -54,18 +60,44 @@ a {
     color: #fff !important;
     text-decoration: none;
 }
-.learnBtn {
+
+.primaryBtn {
     color: #fff !important;
-    border: 1px solid #fff;
     padding: 5px;
     position: absolute;
     top: 85%;
     left: 45%;
-    font-size:25px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #9c6f44;
+    padding: 10px;
+    border-radius: 26px;
+    border:1px solid #000;
+}
+.secondaryBtn {
+    color: #fff !important;
+    padding: 5px;
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #9c6f44;
+    padding: 10px;
+    border-radius: 26px;
+    border: 1px solid #000;
 }
 @font-face {
     font-family: interBold;
-    src: url(../fonts/Inter-Bold.woff);
+    src: url(../fonts/Inter-Bold.otf);
+}
+@font-face {
+    font-family: poppinsRegular;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: niagaraSolid;
+    src: url(../fonts/niagaraSolid.TTF);
 }
 h2{
     font-family:interBold;
@@ -73,9 +105,288 @@ h2{
 #text-row {
     padding: 50px;
     background-image: url('file:///C:/Users/zacha/source/repos/zkarst/brewed2perfection/images/coffee-beans.png');
-    background-size: cover;
+    
 }
 .cupof-coffee{
     width:100%;
     float:right;
+}
+
+@keyframes fadeInUp {
+    0% {
+        transform: translateY(50%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+.heroImage1 {
+    animation: 2.5s fadeInUp;
+}
+.headingText{
+    color:#000;
+}
+
+.menuHeading {
+    font-size: 62px;
+    text-align: center;
+    font-family: InterBold;
+}
+#coffeeBenefits {
+    background-color: #F5F0EC;
+    padding: 50px;
+}
+
+.benefitsHeading{
+    font-size:62px;
+    font-family:interBold;
+    text-align:center;
+    text-shadow: 2px 3px #888;
+    padding-bottom:50px;
+}
+.benefit-heading {
+    font-family: InterBold;
+}
+.box-left {
+    margin: 50px;
+    padding: 25px;
+    box-shadow: 3px 3px #9c6f44;
+    border-radius: 10px;
+    animation: 3s 1 fadeInLeft;
+    
+}
+.box-right {
+    margin: 50px;
+    padding: 25px;
+    box-shadow: 3px 3px #9c6f44;
+    border-radius: 10px;
+    animation: 3s 1 fadeInRight;
+   
+}
+.box-left.is-visible {
+    opacity: 1;
+    -webkit-transform: translateY(0px) rotate(0deg) translateZ(0);
+    transform: translateY(0px) rotate(0deg) translateZ(0);
+}
+.box-right.inView {
+    opacity: 1;
+    -webkit-transform: translateY(0px) rotate(0deg) translateZ(0);
+    transform: translateY(0px) rotate(0deg) translateZ(0);
+}
+.is-visible {
+    opacity: 1;
+    -webkit-transform: translateY(0px) rotate(0deg) translateZ(0);
+    transform: translateY(0px) rotate(0deg) translateZ(0);
+}
+
+/*==== FADE IN RIGHT ===*/
+@-webkit-keyframes fadeInRight {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.fadeInRight {
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+}
+
+
+@-webkit-keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+        
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+}
+
+.dispCoffeeCup {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width:600px;
+}
+.box-left {
+    transform: translateX(-400%);
+    transition: transform 0.5s;
+    transition-delay: 0.2s;
+    text-align:right;
+}
+
+    .box-left.show {
+        transform: translateX(0);
+    }
+.box-right {
+    transform: translateX(400%);
+    transition: transform 0.5s;
+    transition-delay: 0.3s;
+}
+
+    .box-right.show {
+        transform: translateX(0);
+    }
+#footer {
+    background-color: #9c6f44;
+    padding:50px;
+    z-index:1;
+}
+.footer-logo {
+    width: 250px;
+}
+.footer-heading{
+    color:#fff;
+    font-family:Poppins;
+}
+.footer-links{
+    color:#fff;
+    
+}
+#menu-box{
+    background-color:#fff;
+    padding:50px;
+   
+}
+.cheersImg{
+   width:100%;
+}
+#menuArea {
+    background-image: url('file:///C:/Users/zacha/source/repos/zkarst/brewed2perfection//images/coffee-cheers.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bread-image {
+    z-index: 1;
+    position: relative;
+    top: 25%;
+}
+.menu-heading{
+    font-family:'Great Vibes';
+    font-size:5rem;
+    font-weight:bold;
+    text-align:center;
+}
+.menuItem{
+    font-weight:bold;
+    font-size:18px;
+}
+#contact-row {
+    background-color: #F5F0EC;
+    padding:50px;
+}
+.contact{
+    text-align:center;
+}
+
+#two-bean {
+    background-image: url('file:///C:/Users/zacha/source/repos/zkarst/brewed2perfection/images/two-beans.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity:35%;
+}
+@media only screen and (min-width: 1200px){
+    #mobileMenu {
+        display: none;
+    }
+
+}
+@media only screen and (max-width: 1080px) {
+    .brewedImg {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .bread-image {
+        display: none;
+    }
+    .dispCoffeeCup{
+        display:none;
+    }
+    .primaryBtn{
+        display:none;
+    }
+    .cupof-coffee{
+        margin-top:75px;
+    }
+   
+}
+@media only screen and (max-width: 480px) {
+    .bread-image{
+        display:none;
+    }
+    #coffeeBenefits{
+        padding:0px;
+    }
+    .benefitsHeading{
+        padding-top:50px;
+    }
+    .nav-links {
+        text-align: right;
+        font-size: 21px;
+        padding: 25px;
+        display: none;
+    }
+    #mobileMenu {
+        margin-top: 100px;
+    }
+}
+#menuicon {
+    position: absolute;
+    z-index: 99999;
+    top: 0px;
+    right: 0px;
+    width: 75px;
+    opacity: 75%;
 }
