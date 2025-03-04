@@ -58,7 +58,7 @@ ul li{
 }
 a {
     color: #fff !important;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .primaryBtn {
@@ -134,19 +134,24 @@ h2{
 .menuHeading {
     font-size: 62px;
     text-align: center;
-    font-family: InterBold;
+    font-family: 'Great Vibes';
 }
 #coffeeBenefits {
     background-color: #F5F0EC;
     padding: 50px;
 }
 
-.benefitsHeading{
-    font-size:62px;
-    font-family:interBold;
-    text-align:center;
+.benefitsHeading {
+    font-size: 62px;
+    font-family: 'Great Vibes';
+    text-align: center;
     text-shadow: 2px 3px #888;
-    padding-bottom:50px;
+    padding-bottom: 50px;
+}
+.contactHeading {
+    font-family: 'Great Vibes';
+    text-align: center;
+    font-size: 50px;
 }
 .benefit-heading {
     font-family: InterBold;
@@ -342,7 +347,11 @@ h2{
     }
 
 }
+#mobileMenu {
+    margin-top: 100px;
+}
 @media only screen and (max-width: 1080px) {
+
     .brewedImg {
         width: 100% !important;
         height: 100% !important;
@@ -360,7 +369,12 @@ h2{
     .cupof-coffee{
         margin-top:75px;
     }
-   
+    .nav-links {
+        text-align: right;
+        font-size: 21px;
+        padding: 25px;
+        display: none;
+    }
 }
 @media only screen and (max-width: 480px) {
     .bread-image{
@@ -378,15 +392,61 @@ h2{
         padding: 25px;
         display: none;
     }
-    #mobileMenu {
-        margin-top: 100px;
+   
+    #headerSec{
+        padding-left:0px;
     }
 }
 #menuicon {
     position: absolute;
     z-index: 99999;
     top: 0px;
-    right: 0px;
-    width: 75px;
+    right: 25px;
+    width: 65px;
     opacity: 75%;
+}
+#about-header {
+    background-image: url('file:///C:/Users/zacha/source/repos/zkarst/brewed2perfection/images/steamy-coffee.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    padding:50px;
+}
+#about-row{
+    padding:50px;
+}
+/*Contact Form*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #563517;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    input[type=submit]:hover {
+        background-color: #9c6f44;
+    }
+
+.container {
+    border-radius: 5px;
+    padding: 20px;
+}
+#contact-info {
+    background-color: #F5F0EC;
+}
+#info-container{
+    padding:50px;
 }

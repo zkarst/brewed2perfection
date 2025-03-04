@@ -7,16 +7,8 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\zacha\\source\\repos\\zkarst\\brewed2perfection\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\zacha\\source\\repos\\zkarst\\brewed2perfection\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\zacha\\Source\\Repos\\zkarst\\brewed2perfection\\includes\\mobile-menu.php||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:includes\\mobile-menu.php||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\zacha\\source\\repos\\zkarst\\brewed2perfection\\contact.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:contact.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\zacha\\source\\repos\\zkarst\\brewed2perfection\\menu.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -27,8 +19,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:about.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\zacha\\source\\repos\\zkarst\\brewed2perfection\\contact.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:contact.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\zacha\\source\\repos\\zkarst\\brewed2perfection\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\zacha\\source\\repos\\zkarst\\brewed2perfection\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,34 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 234,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "mobile-menu.php",
-              "DocumentMoniker": "C:\\Users\\zacha\\Source\\Repos\\zkarst\\brewed2perfection\\includes\\mobile-menu.php",
-              "RelativeDocumentMoniker": "includes\\mobile-menu.php",
-              "ToolTip": "C:\\Users\\zacha\\Source\\Repos\\zkarst\\brewed2perfection\\includes\\mobile-menu.php",
-              "RelativeToolTip": "includes\\mobile-menu.php",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
-              "WhenOpened": "2025-03-03T02:21:29.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "style.css",
-              "DocumentMoniker": "C:\\Users\\zacha\\source\\repos\\zkarst\\brewed2perfection\\css\\style.css",
-              "RelativeDocumentMoniker": "css\\style.css",
-              "ToolTip": "C:\\Users\\zacha\\source\\repos\\zkarst\\brewed2perfection\\css\\style.css",
-              "RelativeToolTip": "css\\style.css",
-              "ViewState": "AgIAAFUBAAAAAAAAAAAAAGoBAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-27T16:07:50.631Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -80,65 +50,77 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\zacha\\source\\repos\\zkarst\\brewed2perfection\\css\\style.css",
+              "RelativeDocumentMoniker": "css\\style.css",
+              "ToolTip": "C:\\Users\\zacha\\source\\repos\\zkarst\\brewed2perfection\\css\\style.css",
+              "RelativeToolTip": "css\\style.css",
+              "ViewState": "AgIAAFgBAAAAAAAAAAAwwF8BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-27T16:07:50.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "menu.html",
               "DocumentMoniker": "C:\\Users\\zacha\\source\\repos\\zkarst\\brewed2perfection\\menu.html",
               "RelativeDocumentMoniker": "menu.html",
               "ToolTip": "C:\\Users\\zacha\\source\\repos\\zkarst\\brewed2perfection\\menu.html",
               "RelativeToolTip": "menu.html",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAuwEEAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAuwJkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-02-27T16:21:25.235Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "about.html",
               "DocumentMoniker": "C:\\Users\\zacha\\source\\repos\\zkarst\\brewed2perfection\\about.html",
               "RelativeDocumentMoniker": "about.html",
               "ToolTip": "C:\\Users\\zacha\\source\\repos\\zkarst\\brewed2perfection\\about.html",
               "RelativeToolTip": "about.html",
-              "ViewState": "AgIAADIAAAAAAAAAAAAuwFUAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAuwFMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-03-02T03:38:25.475Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "contact.html",
               "DocumentMoniker": "C:\\Users\\zacha\\source\\repos\\zkarst\\brewed2perfection\\contact.html",
               "RelativeDocumentMoniker": "contact.html",
               "ToolTip": "C:\\Users\\zacha\\source\\repos\\zkarst\\brewed2perfection\\contact.html",
               "RelativeToolTip": "contact.html",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAFUAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAuwGMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-02-27T16:25:34.168Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "script.js",
               "DocumentMoniker": "C:\\Users\\zacha\\source\\repos\\zkarst\\brewed2perfection\\js\\script.js",
               "RelativeDocumentMoniker": "js\\script.js",
               "ToolTip": "C:\\Users\\zacha\\source\\repos\\zkarst\\brewed2perfection\\js\\script.js",
               "RelativeToolTip": "js\\script.js",
-              "ViewState": "AgIAADMAAAAAAAAAAAAgwFQAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAgwEMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-02-27T16:19:10.51Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T16:19:10.51Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\zacha\\source\\repos\\zkarst\\brewed2perfection\\index.html",
               "RelativeDocumentMoniker": "index.html",
               "ToolTip": "C:\\Users\\zacha\\source\\repos\\zkarst\\brewed2perfection\\index.html",
               "RelativeToolTip": "index.html",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAGYAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-02-27T16:05:37.266Z",
               "EditorCaption": ""
